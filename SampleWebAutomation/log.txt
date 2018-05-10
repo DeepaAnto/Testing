@@ -1,0 +1,1346 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building devices 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ denali-web ---
+[INFO] Deleting E:\DenaliWebAutomation\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ denali-web ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\DenaliWebAutomation\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ denali-web ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ denali-web ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ denali-web ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 23 source files to E:\DenaliWebAutomation\target\test-classes
+[INFO] 
+[INFO] >>> driver-binary-downloader-maven-plugin:1.0.4:selenium (default) @ denali-web >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ denali-web ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\DenaliWebAutomation\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ denali-web ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ denali-web ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ denali-web ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< driver-binary-downloader-maven-plugin:1.0.4:selenium (default) @ denali-web <<<
+[INFO] 
+[INFO] --- driver-binary-downloader-maven-plugin:1.0.4:selenium (default) @ denali-web ---
+[INFO]  
+[INFO] --------------------------------------------------------
+[INFO]  DOWNLOADING SELENIUM STAND-ALONE EXECUTABLE BINARIES...
+[INFO] --------------------------------------------------------
+[INFO]  
+[INFO]  file:/E:/DenaliWebAutomation/target/test-classes/RepositoryMap.xml is valid
+[INFO]  
+[INFO] Only get drivers for current Operating System: true
+[INFO] Download 32bit binaries: true
+[INFO] Download 64bit binaries: true
+[INFO] Download Latest Versions Only: true
+[INFO] Throw Exception If Specified Version Is Not Found: false
+[INFO]  
+[INFO] Archives will be downloaded to 'E:\DenaliWebAutomation\lib\zip'
+[INFO] Standalone executable files will be extracted to 'E:\DenaliWebAutomation\lib'
+[INFO]  
+[INFO] Preparing to download Selenium Standalone Executable Binaries...
+[INFO]  
+[INFO] Archive file 'chromedriver_win32.zip' exists   : true
+[INFO] Archive file 'chromedriver_win32.zip' is valid : true
+[INFO] Binary 'chromedriver.exe' Exists: true
+[INFO]  
+[INFO] Archive file 'IEDriverServer_Win32_2.44.0.zip' exists   : true
+[INFO] Archive file 'IEDriverServer_Win32_2.44.0.zip' is valid : true
+[INFO] Binary 'IEDriverServer.exe' Exists: true
+[INFO]  
+[INFO] Archive file 'IEDriverServer_x64_2.44.0.zip' exists   : true
+[INFO] Archive file 'IEDriverServer_x64_2.44.0.zip' is valid : true
+[INFO] Binary 'IEDriverServer.exe' Exists: true
+[INFO]  
+[INFO] --------------------------------------------------------
+[INFO] SELENIUM STAND-ALONE EXECUTABLE DOWNLOADS COMPLETE
+[INFO] --------------------------------------------------------
+[INFO]  
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.14.1:test (default-test) @ denali-web ---
+[INFO] Surefire report directory: E:\DenaliWebAutomation\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Verifying the "First boot and General Denali Functions" in FIREFOX browser
+Browser in use: FIREFOX
+================================
+Test case ID : DEN-001 - DEN-003
+================================
+Verifying web page login
+Logged into Denali with credentials admin/admin successfully
+======================
+Test case ID : DEN-004
+======================
+Verifying the Network view->Admin tab
+New admin password applied successfully
+Login back with new credentials admin/We!come1FIREFOX to verify
+Browser in use: FIREFOX
+Logged into denali with new credentials successfully
+======================
+Test case ID : DEN-005
+======================
+Verifying the Device view->Profile tab
+Device Information:
+Kura Version is KURA_1.2.0-SNAPSHOT
+Client ID is B8:27:EB:9E:FD:CE
+Display Name is Raspberry-Pi
+Uptime is 0 days 0:45:37 hms
+Last Wifi Channel is 11
+GPS Information:
+Latitude is 0.0
+Longitude is 0.0
+Altitude is 0.0
+Hardware Information:
+Model Name is Raspberry-Pi
+Model ID is Raspberry-Pi
+Part Number is Raspberry-Pi
+Serial Number is Raspberry-Pi
+Java Information:
+Java Virtual Machine is Java HotSpot(TM) Client VM
+Java Virtual Machine Version is 25.0-b70
+Java Runtime is Java(TM) SE Runtime Environment 1.8.0-b132
+OSGI Framework is Eclipse
+OSGI Framework Version is 1.7.0
+Number of Processors is 4
+Total RAM is 506880 MB
+Free RAM is 464687 MB
+Network Information:
+Interface is eth0 (B8:27:EB:9E:FD:CE)
+IP Address is 172.30.33.9
+Software Information:
+Firmware Version is N/A
+BIOS Version is N/A
+Operating System Version is 3.18.7-v7+
+Operating System is Linux
+OS Architecture is arm
+Verifying the Device view->Bundles, Thread, SystemProperty and Device tab
+Verifying the Status view
+Cloud and Data Service:
+Connection Status is CONNECTED
+Auto-connect is ON (Retry Interval is 60s)
+Broker URL is tcp://broker-stage.everyware-cloud.com:1883
+Account is edcguest
+Username is edcguest_broker
+Client ID is Raspberry-2
+Ethernet Settings:
+eth0 is 172.30.33.9
+    Subnet Mask: 255.255.224.0
+    Mode: WAN
+    IP Acquisition: DHCP
+    Router Mode:
+Position Status:
+Longitude is 0.0 rad
+Latitude is 0.0 rad
+Altitude is 0.0 m
+======================
+Test case ID : DEN-006
+======================
+Verifying the Packages view
+Verifying the Settings view-> Snapshot tab
+Verifying the Firewall view-> Open Port tab
+Verifying the eth0, eth1 and wlan permitted interface
+Verifying the Firewall view-> Port Forwarding tab
+Verifying the Firewall view-> NAT tab
+Verifying the Network view-> loopback interface
+Verifying the Network view-> eth0 interface
+Verifying the "First boot and General Denali Functions" in CHROME browser
+Browser in use: CHROME
+================================
+Test case ID : DEN-001 - DEN-003
+================================
+Verifying web page login
+Logged into Denali with credentials admin/admin successfully
+======================
+Test case ID : DEN-004
+======================
+Verifying the Network view->Admin tab
+New admin password applied successfully
+Login back with new credentials admin/We!come1CHROME to verify
+Browser in use: CHROME
+Logged into denali with new credentials successfully
+======================
+Test case ID : DEN-005
+======================
+Verifying the Device view->Profile tab
+Device Information:
+Kura Version is KURA_1.2.0-SNAPSHOT
+Client ID is B8:27:EB:9E:FD:CE
+Display Name is Raspberry-Pi
+Uptime is 0 days 0:46:4 hms
+Last Wifi Channel is 11
+GPS Information:
+Latitude is 0.0
+Longitude is 0.0
+Altitude is 0.0
+Hardware Information:
+Model Name is Raspberry-Pi
+Model ID is Raspberry-Pi
+Part Number is Raspberry-Pi
+Serial Number is Raspberry-Pi
+Java Information:
+Java Virtual Machine is Java HotSpot(TM) Client VM
+Java Virtual Machine Version is 25.0-b70
+Java Runtime is Java(TM) SE Runtime Environment 1.8.0-b132
+OSGI Framework is Eclipse
+OSGI Framework Version is 1.7.0
+Number of Processors is 4
+Total RAM is 506880 MB
+Free RAM is 444205 MB
+Network Information:
+Interface is eth0 (B8:27:EB:9E:FD:CE)
+IP Address is 172.30.33.9
+Software Information:
+Firmware Version is N/A
+BIOS Version is N/A
+Operating System Version is 3.18.7-v7+
+Operating System is Linux
+OS Architecture is arm
+Verifying the Device view->Bundles, Thread, SystemProperty and Device tab
+Verifying the Status view
+Cloud and Data Service:
+Connection Status is CONNECTED
+Auto-connect is ON (Retry Interval is 60s)
+Broker URL is tcp://broker-stage.everyware-cloud.com:1883
+Account is edcguest
+Username is edcguest_broker
+Client ID is Raspberry-2
+Ethernet Settings:
+eth0 is 172.30.33.9
+    Subnet Mask: 255.255.224.0
+    Mode: WAN
+    IP Acquisition: DHCP
+    Router Mode:
+Position Status:
+Longitude is 0.0 rad
+Latitude is 0.0 rad
+Altitude is 0.0 m
+======================
+Test case ID : DEN-006
+======================
+Verifying the Packages view
+Verifying the Settings view-> Snapshot tab
+Verifying the Firewall view-> Open Port tab
+Verifying the eth0, eth1 and wlan permitted interface
+Verifying the Firewall view-> Port Forwarding tab
+Verifying the Firewall view-> NAT tab
+Verifying the Network view-> loopback interface
+Verifying the Network view-> eth0 interface
+Verifying the "First boot and General Denali Functions" in IE browser
+Browser in use: IE
+================================
+Test case ID : DEN-001 - DEN-003
+================================
+Verifying web page login
+Logged into Denali with credentials admin/admin successfully
+======================
+Test case ID : DEN-004
+======================
+Verifying the Network view->Admin tab
+New admin password applied successfully
+Login back with new credentials admin/We!come1IE to verify
+Browser in use: IE
+Logged into denali with new credentials successfully
+======================
+Test case ID : DEN-005
+======================
+Verifying the Device view->Profile tab
+Device Information:
+Kura Version is KURA_1.2.0-SNAPSHOT
+Client ID is B8:27:EB:9E:FD:CE
+Display Name is Raspberry-Pi
+Uptime is 0 days 0:46:49 hms
+Last Wifi Channel is 11
+GPS Information:
+Latitude is 0.0
+Longitude is 0.0
+Altitude is 0.0
+Hardware Information:
+Model Name is Raspberry-Pi
+Model ID is Raspberry-Pi
+Part Number is Raspberry-Pi
+Serial Number is Raspberry-Pi
+Java Information:
+Java Virtual Machine is Java HotSpot(TM) Client VM
+Java Virtual Machine Version is 25.0-b70
+Java Runtime is Java(TM) SE Runtime Environment 1.8.0-b132
+OSGI Framework is Eclipse
+OSGI Framework Version is 1.7.0
+Number of Processors is 4
+Total RAM is 506880 MB
+Free RAM is 429410 MB
+Network Information:
+Interface is eth0 (B8:27:EB:9E:FD:CE)
+IP Address is 172.30.33.9
+Software Information:
+Firmware Version is N/A
+BIOS Version is N/A
+Operating System Version is 3.18.7-v7+
+Operating System is Linux
+OS Architecture is arm
+Verifying the Device view->Bundles, Thread, SystemProperty and Device tab
+Verifying the Status view
+Cloud and Data Service:
+Connection Status is CONNECTED
+Auto-connect is ON (Retry Interval is 60s)
+Broker URL is tcp://broker-stage.everyware-cloud.com:1883
+Account is edcguest
+Username is edcguest_broker
+Client ID is Raspberry-2
+Ethernet Settings:
+eth0 is 172.30.33.9
+    Subnet Mask: 255.255.224.0
+    Mode: WAN
+    IP Acquisition: DHCP
+    Router Mode:
+Position Status:
+Longitude is 0.0 rad
+Latitude is 0.0 rad
+Altitude is 0.0 m
+======================
+Test case ID : DEN-006
+======================
+Verifying the Packages view
+Verifying the Settings view-> Snapshot tab
+Verifying the Firewall view-> Open Port tab
+Verifying the eth0, eth1 and wlan permitted interface
+Verifying the Firewall view-> Port Forwarding tab
+Verifying the Firewall view-> NAT tab
+Verifying the Network view-> loopback interface
+Verifying the Network view-> eth0 interface
+Verifying the "Ethernet" functionalities in FIREFOX browser
+Browser in use: FIREFOX
+===========================
+Test case ID : NET-ETH0-001
+===========================
+Verifying the Eth0 functionalities by set IP address manually
+New update ip 172.30.33.15
+Trying to connect 172.30.33.15 through SSH...
+SSH connection successful... 
+s
+"Framework is launched."
+
+
+id	State       Bundle
+0	ACTIVE      org.eclipse.osgi_3.8.1.v20120830-144521
+1	ACTIVE      org.eclipse.equinox.cm_1.0.400.v20120522-1841
+2	ACTIVE      org.eclipse.equinox.common_3.6.100.v20120522-1841
+3	ACTIVE      org.eclipse.equinox.registry_3.5.200.v20120522-1841
+4	ACTIVE      org.eclipse.equinox.http.registry_1.1.200.v20120522-2049
+5	ACTIVE      org.eclipse.equinox.console_1.0.0.v20120522-1841
+6	ACTIVE      org.eclipse.equinox.ds_1.4.0.v20120522-1841
+7	ACTIVE      org.eclipse.equinox.event_1.2.200.v20120522-2049
+8	ACTIVE      org.eclipse.equinox.io_1.0.400.v20120522-2049
+9	ACTIVE      org.eclipse.equinox.metatype_1.2.0.v20120522-1841
+10	ACTIVE      org.eclipse.equinox.util_1.0.400.v20120522-2049
+11	ACTIVE      org.eclipse.osgi.services_3.3.100.v20120522-1822
+12	ACTIVE      org.eclipse.osgi.util_3.2.300.v20120522-1822
+13	ACTIVE      org.apache.felix.gogo.command_0.8.0.v201108120515
+14	ACTIVE      org.apache.felix.gogo.runtime_0.8.0.v201108120515
+15	ACTIVE      org.apache.felix.gogo.shell_0.8.0.v201110170705
+16	ACTIVE      org.knowhowlab.osgi.monitoradmin_1.0.2
+17	ACTIVE      org.apache.felix.dependencymanager_3.0.0
+18	ACTIVE      org.apache.felix.deploymentadmin_0.9.5
+19	ACTIVE      osgi.cmpn_4.3.0.201111022214
+20	ACTIVE      org.eclipse.equinox.http.jetty_3.0.0.v20120522-1841
+21	ACTIVE      org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841
+22	ACTIVE      org.eclipse.jetty.continuation_8.1.3.v20120522
+23	ACTIVE      org.eclipse.jetty.http_8.1.3.v20120522
+24	ACTIVE      org.eclipse.jetty.io_8.1.3.v20120522
+25	ACTIVE      org.eclipse.jetty.security_8.1.3.v20120522
+26	ACTIVE      org.eclipse.jetty.server_8.1.3.v20120522
+27	ACTIVE      org.eclipse.jetty.servlet_8.1.3.v20120522
+28	ACTIVE      org.eclipse.jetty.util_8.1.3.v20120522
+29	ACTIVE      javax.servlet_3.0.0.v201112011016
+30	ACTIVE      org.apache.commons.fileupload_1.2.2.v20111214-1400
+31	ACTIVE      org.apache.commons.io_2.4.0
+32	ACTIVE      slf4j.api_1.6.4
+	            Fragments=33
+33	RESOLVED    slf4j.log4j12_1.6.0
+	            Master=32
+34	RESOLVED    log4j_1.2.17
+	            Fragments=35
+35	RESOLVED    log4j.apache-log4j-extras_1.1.0
+	            Master=34
+36	ACTIVE      org.json_1.0.0.v201011060100
+37	ACTIVE      org.eclipse.paho.client.mqttv3_1.0.1
+38	ACTIVE      org.hsqldb.hsqldb_2.3.0
+39	ACTIVE      com.google.protobuf_2.6.0
+40	ACTIVE      com.codeminders.hidapi_1.1.1
+41	ACTIVE      org.eclipse.soda.dk.comm_1.2.1
+42	ACTIVE      javax.usb.api_1.0.2
+43	ACTIVE      javax.usb.common_1.0.2
+44	ACTIVE      javax.usb.linux_1.0.3
+45	ACTIVE      jdk.dio_1.0.1
+46	ACTIVE      org.apache.commons.net_3.1.0.v201205071737
+47	ACTIVE      org.tigris.mtoolkit.iagent.rpc_3.0.0.20110411-0918
+48	ACTIVE      com.gwt.user_0.2.0
+49	ACTIVE      org.eclipse.kura.deployment.agent_1.0.2
+50	ACTIVE      org.eclipse.kura.api_1.0.3
+51	ACTIVE      org.eclipse.kura.core_1.0.4.201505131232
+52	ACTIVE      org.eclipse.kura.core.cloud_1.0.3
+53	ACTIVE      org.eclipse.kura.core.comm_1.0.1
+54	ACTIVE      org.eclipse.kura.core.configuration_1.0.3.201505131232
+55	ACTIVE      org.eclipse.kura.core.crypto_1.0.1
+56	ACTIVE      org.eclipse.kura.core.deployment_1.0.2
+57	ACTIVE      org.eclipse.kura.core.log_1.0.0.201505131232
+58	ACTIVE      org.eclipse.kura.core.net_1.0.4.201505131232
+59	ACTIVE      org.eclipse.kura.linux.clock_1.0.3
+60	ACTIVE      org.eclipse.kura.linux.command_1.0.3
+61	ACTIVE      org.eclipse.kura.linux.net_1.0.4.201505131232
+62	ACTIVE      org.eclipse.kura.linux.position_1.0.3
+63	ACTIVE      org.eclipse.kura.linux.usb_1.0.4.201505131232
+64	ACTIVE      org.eclipse.kura.linux.watchdog_1.0.2
+65	ACTIVE      org.eclipse.kura.net.admin_1.0.4.201505131232
+66	ACTIVE      org.eclipse.kura.web_1.0.4.qualifier
+osgi> 
+Updating new static IP in application.properties
+Configuring IP address to manually for Eth0 done successfully
+Browser in use: FIREFOX
+Logged into denali with new updated IP address
+Logged into denali successfully with newly updated IP address
+Browser in use: FIREFOX
+===========================
+Test case ID : NET-ETH0-002
+===========================
+Verifying the ifconfig command should show eth0 with correct ip address
+ypi 3.18.7-v7+ #755 SMP PREEMPT Thu Feb 12 17:20:48 GMT 2015 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed May 13 12:37:26 2015 from 172.30.33.148
+ifconfig eth0
+pi@raspberrypi:~$ ifconfig eth0
+eth0      Link encap:Ethernet  HWaddr b8:27:eb:9e:fd:ce  
+          inet addr:172.30.33.15  Bcast:172.30.63.255  Mask:255.255.224.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:100182 errors:0 dropped:112 overruns:0 frame:0
+          TX packets:11504 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7068350 (6.7 MiB)  TX bytes:14337084 (13.6 MiB)
+
+pi@raspberrypi:~$ 
+The eth0 IP address verification is done using ifconfig command
+Verifying the ifconfig command should show eth0 with correct subnet mask
+
+eth0      Link encap:Ethernet  HWaddr b8:27:eb:9e:fd:ce  
+          inet addr:172.30.33.15  Bcast:172.30.63.255  Mask:255.255.224.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:100327 errors:0 dropped:112 overruns:0 frame:0
+          TX packets:11515 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:7079127 (6.7 MiB)  TX bytes:14338770 (13.6 MiB)
+
+pi@raspberrypi:~$ 
+The subnet mask verification is done using ifconfig command
+Verifying the route command should show a both an appropriate network entry and the gateway entry
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+172.30.32.0     *               255.255.224.0   U     0      0        0 eth0
+pi@raspberrypi:~$ 
+The Gateway entry and Network entry verification is done using route command
+Verifying /etc/resolv.conf command should show both DNS servers
+
+domain msystechnologies.com
+search msystechnologies.com
+nameserver 113.193.1.14
+nameserver 8.8.8.8
+pi@raspberrypi:~$ 
+The DNS server verification is done using /etc/resolv.conf command
+Verifying the device is able to ping external address(google.com) through putty
+The device is able to communicate with external address(google.com)
+Browser in use: FIREFOX
+===========================
+Test case ID : NET-ETH0-003
+===========================
+Modifying eth0 status to Enabled for WAN
+Eth0 status is modified to Enabled for WAN
+Configuring MqttDataTransport to connect to sandbox/stage broker with correct credentials
+Waiting to start the Kura/ESF services in gateway
+Trying to connect 172.30.33.15 through SSH...
+Connecting to 172.30.33.15 through SSH failed...
+Trying to connect 172.30.33.15 through SSH...
+SSH connection successful... 
+s
+"Framework is launched."
+
+
+id	State       Bundle
+0	ACTIVE      org.eclipse.osgi_3.8.1.v20120830-144521
+1	ACTIVE      org.eclipse.equinox.cm_1.0.400.v20120522-1841
+2	ACTIVE      org.eclipse.equinox.common_3.6.100.v20120522-1841
+3	ACTIVE      org.eclipse.equinox.registry_3.5.200.v20120522-1841
+4	ACTIVE      org.eclipse.equinox.http.registry_1.1.200.v20120522-2049
+5	ACTIVE      org.eclipse.equinox.console_1.0.0.v20120522-1841
+6	ACTIVE      org.eclipse.equinox.ds_1.4.0.v20120522-1841
+7	ACTIVE      org.eclipse.equinox.event_1.2.200.v20120522-2049
+8	ACTIVE      org.eclipse.equinox.io_1.0.400.v20120522-2049
+9	ACTIVE      org.eclipse.equinox.metatype_1.2.0.v20120522-1841
+10	ACTIVE      org.eclipse.equinox.util_1.0.400.v20120522-2049
+11	ACTIVE      org.eclipse.osgi.services_3.3.100.v20120522-1822
+12	ACTIVE      org.eclipse.osgi.util_3.2.300.v20120522-1822
+13	ACTIVE      org.apache.felix.gogo.command_0.8.0.v201108120515
+14	ACTIVE      org.apache.felix.gogo.runtime_0.8.0.v201108120515
+15	ACTIVE      org.apache.felix.gogo.shell_0.8.0.v201110170705
+16	ACTIVE      org.knowhowlab.osgi.monitoradmin_1.0.2
+17	ACTIVE      org.apache.felix.dependencymanager_3.0.0
+18	ACTIVE      org.apache.felix.deploymentadmin_0.9.5
+19	ACTIVE      osgi.cmpn_4.3.0.201111022214
+20	ACTIVE      org.eclipse.equinox.http.jetty_3.0.0.v20120522-1841
+21	ACTIVE      org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841
+22	ACTIVE      org.eclipse.jetty.continuation_8.1.3.v20120522
+23	ACTIVE      org.eclipse.jetty.http_8.1.3.v20120522
+24	ACTIVE      org.eclipse.jetty.io_8.1.3.v20120522
+25	ACTIVE      org.eclipse.jetty.security_8.1.3.v20120522
+26	ACTIVE      org.eclipse.jetty.server_8.1.3.v20120522
+27	ACTIVE      org.eclipse.jetty.servlet_8.1.3.v20120522
+28	ACTIVE      org.eclipse.jetty.util_8.1.3.v20120522
+29	ACTIVE      javax.servlet_3.0.0.v201112011016
+30	ACTIVE      org.apache.commons.fileupload_1.2.2.v20111214-1400
+31	ACTIVE      org.apache.commons.io_2.4.0
+32	ACTIVE      slf4j.api_1.6.4
+	            Fragments=33
+33	RESOLVED    slf4j.log4j12_1.6.0
+	            Master=32
+34	RESOLVED    log4j_1.2.17
+	            Fragments=35
+35	RESOLVED    log4j.apache-log4j-extras_1.1.0
+	            Master=34
+36	ACTIVE      org.json_1.0.0.v201011060100
+37	ACTIVE      org.eclipse.paho.client.mqttv3_1.0.1
+38	ACTIVE      org.hsqldb.hsqldb_2.3.0
+39	ACTIVE      com.google.protobuf_2.6.0
+40	ACTIVE      com.codeminders.hidapi_1.1.1
+41	ACTIVE      org.eclipse.soda.dk.comm_1.2.1
+42	ACTIVE      javax.usb.api_1.0.2
+43	ACTIVE      javax.usb.common_1.0.2
+44	ACTIVE      javax.usb.linux_1.0.3
+45	ACTIVE      jdk.dio_1.0.1
+46	ACTIVE      org.apache.commons.net_3.1.0.v201205071737
+47	ACTIVE      org.tigris.mtoolkit.iagent.rpc_3.0.0.20110411-0918
+48	ACTIVE      com.gwt.user_0.2.0
+49	ACTIVE      org.eclipse.kura.deployment.agent_1.0.2
+50	ACTIVE      org.eclipse.kura.api_1.0.3
+51	ACTIVE      org.eclipse.kura.core_1.0.4.201505131232
+52	ACTIVE      org.eclipse.kura.core.cloud_1.0.3
+53	ACTIVE      org.eclipse.kura.core.comm_1.0.1
+54	ACTIVE      org.eclipse.kura.core.configuration_1.0.3.201505131232
+55	ACTIVE      org.eclipse.kura.core.crypto_1.0.1
+56	ACTIVE      org.eclipse.kura.core.deployment_1.0.2
+57	ACTIVE      org.eclipse.kura.core.log_1.0.0.201505131232
+58	ACTIVE      org.eclipse.kura.core.net_1.0.4.201505131232
+59	ACTIVE      org.eclipse.kura.linux.clock_1.0.3
+60	ACTIVE      org.eclipse.kura.linux.command_1.0.3
+61	ACTIVE      org.eclipse.kura.linux.net_1.0.4.201505131232
+62	ACTIVE      org.eclipse.kura.linux.position_1.0.3
+63	ACTIVE      org.eclipse.kura.linux.usb_1.0.4.201505131232
+64	ACTIVE      org.eclipse.kura.linux.watchdog_1.0.2
+65	ACTIVE      org.eclipse.kura.net.admin_1.0.4.201505131232
+66	ACTIVE      org.eclipse.kura.web_1.0.4.qualifier
+osgi> 
+MqttDataTransport is already configured to sandbox/stage broker account with correct credentials
+Configuring DataService to enable connect.aut-on-startup
+connect.auto-on-startup is already enabled in DataService
+Waiting to update the device in EC Sandbox/Stage console
+Verifying the gateway connects correctly to EC on sandbox/stage console
+Logged into EC sandbox/stage console successfully
+The gateway Raspberry-2 is connected to the EC sandbox/stage console successfully
+Browser in use: FIREFOX
+===========================
+Test case ID : NET-ETH0-004
+===========================
+Rebooting the gateway to verify it reconnects on EC console
+Rebooting the gateway done successfully
+Waiting to start the Kura/ESF services in gateway
+Trying to connect 172.30.33.15 through SSH...
+SSH connection successful... 
+Not connected to OSGI console...
+Trying to connect 172.30.33.15 through SSH...
+SSH connection successful... 
+Not connected to OSGI console...
+Trying to connect 172.30.33.15 through SSH...
+SSH connection successful... 
+s
+"Framework is launched."
+
+
+id	State       Bundle
+0	ACTIVE      org.eclipse.osgi_3.8.1.v20120830-144521
+1	ACTIVE      org.eclipse.equinox.cm_1.0.400.v20120522-1841
+2	ACTIVE      org.eclipse.equinox.common_3.6.100.v20120522-1841
+3	ACTIVE      org.eclipse.equinox.registry_3.5.200.v20120522-1841
+4	ACTIVE      org.eclipse.equinox.http.registry_1.1.200.v20120522-2049
+5	ACTIVE      org.eclipse.equinox.console_1.0.0.v20120522-1841
+6	ACTIVE      org.eclipse.equinox.ds_1.4.0.v20120522-1841
+7	ACTIVE      org.eclipse.equinox.event_1.2.200.v20120522-2049
+8	ACTIVE      org.eclipse.equinox.io_1.0.400.v20120522-2049
+9	ACTIVE      org.eclipse.equinox.metatype_1.2.0.v20120522-1841
+10	ACTIVE      org.eclipse.equinox.util_1.0.400.v20120522-2049
+11	ACTIVE      org.eclipse.osgi.services_3.3.100.v20120522-1822
+12	ACTIVE      org.eclipse.osgi.util_3.2.300.v20120522-1822
+13	ACTIVE      org.apache.felix.gogo.command_0.8.0.v201108120515
+14	ACTIVE      org.apache.felix.gogo.runtime_0.8.0.v201108120515
+15	ACTIVE      org.apache.felix.gogo.shell_0.8.0.v201110170705
+16	ACTIVE      org.knowhowlab.osgi.monitoradmin_1.0.2
+17	ACTIVE      org.apache.felix.dependencymanager_3.0.0
+18	ACTIVE      org.apache.felix.deploymentadmin_0.9.5
+19	ACTIVE      osgi.cmpn_4.3.0.201111022214
+20	ACTIVE      org.eclipse.equinox.http.jetty_3.0.0.v20120522-1841
+21	ACTIVE      org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841
+22	ACTIVE      org.eclipse.jetty.continuation_8.1.3.v20120522
+23	ACTIVE      org.eclipse.jetty.http_8.1.3.v20120522
+24	ACTIVE      org.eclipse.jetty.io_8.1.3.v20120522
+25	ACTIVE      org.eclipse.jetty.security_8.1.3.v20120522
+26	ACTIVE      org.eclipse.jetty.server_8.1.3.v20120522
+27	ACTIVE      org.eclipse.jetty.servlet_8.1.3.v20120522
+28	ACTIVE      org.eclipse.jetty.util_8.1.3.v20120522
+29	ACTIVE      javax.servlet_3.0.0.v201112011016
+30	ACTIVE      org.apache.commons.fileupload_1.2.2.v20111214-1400
+31	ACTIVE      org.apache.commons.io_2.4.0
+32	ACTIVE      slf4j.api_1.6.4
+	            Fragments=33
+33	RESOLVED    slf4j.log4j12_1.6.0
+	            Master=32
+34	RESOLVED    log4j_1.2.17
+	            Fragments=35
+35	RESOLVED    log4j.apache-log4j-extras_1.1.0
+	            Master=34
+36	ACTIVE      org.json_1.0.0.v201011060100
+37	ACTIVE      org.eclipse.paho.client.mqttv3_1.0.1
+38	ACTIVE      org.hsqldb.hsqldb_2.3.0
+39	ACTIVE      com.google.protobuf_2.6.0
+40	ACTIVE      com.codeminders.hidapi_1.1.1
+41	ACTIVE      org.eclipse.soda.dk.comm_1.2.1
+42	ACTIVE      javax.usb.api_1.0.2
+43	ACTIVE      javax.usb.common_1.0.2
+44	ACTIVE      javax.usb.linux_1.0.3
+45	ACTIVE      jdk.dio_1.0.1
+46	ACTIVE      org.apache.commons.net_3.1.0.v201205071737
+47	ACTIVE      org.tigris.mtoolkit.iagent.rpc_3.0.0.20110411-0918
+48	ACTIVE      com.gwt.user_0.2.0
+49	ACTIVE      org.eclipse.kura.deployment.agent_1.0.2
+50	ACTIVE      org.eclipse.kura.api_1.0.3
+51	ACTIVE      org.eclipse.kura.core_1.0.4.201505131232
+52	ACTIVE      org.eclipse.kura.core.cloud_1.0.3
+53	ACTIVE      org.eclipse.kura.core.comm_1.0.1
+54	ACTIVE      org.eclipse.kura.core.configuration_1.0.3.201505131232
+55	ACTIVE      org.eclipse.kura.core.crypto_1.0.1
+56	ACTIVE      org.eclipse.kura.core.deployment_1.0.2
+57	ACTIVE      org.eclipse.kura.core.log_1.0.0.201505131232
+58	ACTIVE      org.eclipse.kura.core.net_1.0.4.201505131232
+59	ACTIVE      org.eclipse.kura.linux.clock_1.0.3
+60	ACTIVE      org.eclipse.kura.linux.command_1.0.3
+61	ACTIVE      org.eclipse.kura.linux.net_1.0.4.201505131232
+62	ACTIVE      org.eclipse.kura.linux.position_1.0.3
+63	ACTIVE      org.eclipse.kura.linux.usb_1.0.4.201505131232
+64	ACTIVE      org.eclipse.kura.linux.watchdog_1.0.2
+65	ACTIVE      org.eclipse.kura.net.admin_1.0.4.201505131232
+66	ACTIVE      org.eclipse.kura.web_1.0.4.qualifier
+osgi> 
+OSGI services is started in gateway successfully
+Logged into EC sandbox/stage console to verify the device status
+Device status in console is Connected
+Browser in use: FIREFOX
+===========================
+Test case ID : NET-ETH0-005
+===========================
+Reconfigure Subnet Mask and DNS servers to something different without rebooting
+Trying to connect 172.30.33.15 through SSH...
+SSH connection successful... 
+Verifying Re-configure subnet mask to different
+ypi 3.18.7-v7+ #755 SMP PREEMPT Thu Feb 12 17:20:48 GMT 2015 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed May 13 12:42:44 2015 from 172.30.33.148
+pi@raspberrypi:~$ ifconfig eth0
+eth0      Link encap:Ethernet  HWaddr b8:27:eb:9e:fd:ce  
+          inet addr:172.30.33.15  Bcast:172.30.63.255  Mask:255.255.224.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3569 errors:0 dropped:3 overruns:0 frame:0
+          TX packets:2087 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:281380 (274.7 KiB)  TX bytes:2613795 (2.4 MiB)
+
+pi@raspberrypi:~$ 
+The Re-Configured subnet mask verification is done using ifconfig command
+Verifying Re-configure DNS server to different
+
+
+nameserver 8.8.8.8
+pi@raspberrypi:~$ 
+The Re-configured DNS server verification is done using /etc/resolv.conf command
+Browser in use: FIREFOX
+===========================
+Test case ID : NET-ETH0-006
+===========================
+Remove Ethernet cable and reboot
+Trying to connect 172.30.33.15 through SSH...
+Trying to connect 172.30.33.15 through SSH...
+Trying to connect 172.30.33.15 through SSH...
+SSH connection successful... 
+IfConfig command result after disconnecting eth0:  3.18.7-v7+ #755 SMP PREEMPT Thu Feb 12 17:20:48 GMT 2015 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed May 13 12:43:56 2015 from 172.30.33.148
+cat ifconfig.txt
+pi@raspberrypi:~$ cat ifconfig.txt
+eth0      Link encap:Ethernet  HWaddr b8:27:eb:9e:fd:ce  
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5166 errors:0 dropped:3 overruns:0 frame:0
+          TX packets:3092 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:394554 (385.3 KiB)  TX bytes:3892183 (3.7 MiB)
+
+pi@raspberrypi:~$ 
+Route command result after disconnecting eth0: 
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+pi@raspberrypi:~$ 
+Eth0 port is disconnected and verified
+Trying to connect 172.30.33.15 through SSH...
+SSH connection successful... 
+Not connected to OSGI console...
+Trying to connect 172.30.33.15 through SSH...
+SSH connection successful... 
+s
+"Framework is launched."
+
+
+id	State       Bundle
+0	ACTIVE      org.eclipse.osgi_3.8.1.v20120830-144521
+1	ACTIVE      org.eclipse.equinox.cm_1.0.400.v20120522-1841
+2	ACTIVE      org.eclipse.equinox.common_3.6.100.v20120522-1841
+3	ACTIVE      org.eclipse.equinox.registry_3.5.200.v20120522-1841
+4	ACTIVE      org.eclipse.equinox.http.registry_1.1.200.v20120522-2049
+5	ACTIVE      org.eclipse.equinox.console_1.0.0.v20120522-1841
+6	ACTIVE      org.eclipse.equinox.ds_1.4.0.v20120522-1841
+7	ACTIVE      org.eclipse.equinox.event_1.2.200.v20120522-2049
+8	ACTIVE      org.eclipse.equinox.io_1.0.400.v20120522-2049
+9	ACTIVE      org.eclipse.equinox.metatype_1.2.0.v20120522-1841
+10	ACTIVE      org.eclipse.equinox.util_1.0.400.v20120522-2049
+11	ACTIVE      org.eclipse.osgi.services_3.3.100.v20120522-1822
+12	ACTIVE      org.eclipse.osgi.util_3.2.300.v20120522-1822
+13	ACTIVE      org.apache.felix.gogo.command_0.8.0.v201108120515
+14	ACTIVE      org.apache.felix.gogo.runtime_0.8.0.v201108120515
+15	ACTIVE      org.apache.felix.gogo.shell_0.8.0.v201110170705
+16	ACTIVE      org.knowhowlab.osgi.monitoradmin_1.0.2
+17	ACTIVE      org.apache.felix.dependencymanager_3.0.0
+18	ACTIVE      org.apache.felix.deploymentadmin_0.9.5
+19	ACTIVE      osgi.cmpn_4.3.0.201111022214
+20	ACTIVE      org.eclipse.equinox.http.jetty_3.0.0.v20120522-1841
+21	ACTIVE      org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841
+22	ACTIVE      org.eclipse.jetty.continuation_8.1.3.v20120522
+23	ACTIVE      org.eclipse.jetty.http_8.1.3.v20120522
+24	ACTIVE      org.eclipse.jetty.io_8.1.3.v20120522
+25	ACTIVE      org.eclipse.jetty.security_8.1.3.v20120522
+26	ACTIVE      org.eclipse.jetty.server_8.1.3.v20120522
+27	ACTIVE      org.eclipse.jetty.servlet_8.1.3.v20120522
+28	ACTIVE      org.eclipse.jetty.util_8.1.3.v20120522
+29	ACTIVE      javax.servlet_3.0.0.v201112011016
+30	ACTIVE      org.apache.commons.fileupload_1.2.2.v20111214-1400
+31	ACTIVE      org.apache.commons.io_2.4.0
+32	ACTIVE      slf4j.api_1.6.4
+	            Fragments=33
+33	RESOLVED    slf4j.log4j12_1.6.0
+	            Master=32
+34	RESOLVED    log4j_1.2.17
+	            Fragments=35
+35	RESOLVED    log4j.apache-log4j-extras_1.1.0
+	            Master=34
+36	ACTIVE      org.json_1.0.0.v201011060100
+37	ACTIVE      org.eclipse.paho.client.mqttv3_1.0.1
+38	ACTIVE      org.hsqldb.hsqldb_2.3.0
+39	ACTIVE      com.google.protobuf_2.6.0
+40	ACTIVE      com.codeminders.hidapi_1.1.1
+41	ACTIVE      org.eclipse.soda.dk.comm_1.2.1
+42	ACTIVE      javax.usb.api_1.0.2
+43	ACTIVE      javax.usb.common_1.0.2
+44	ACTIVE      javax.usb.linux_1.0.3
+45	ACTIVE      jdk.dio_1.0.1
+46	ACTIVE      org.apache.commons.net_3.1.0.v201205071737
+47	ACTIVE      org.tigris.mtoolkit.iagent.rpc_3.0.0.20110411-0918
+48	ACTIVE      com.gwt.user_0.2.0
+49	ACTIVE      org.eclipse.kura.deployment.agent_1.0.2
+50	ACTIVE      org.eclipse.kura.api_1.0.3
+51	ACTIVE      org.eclipse.kura.core_1.0.4.201505131232
+52	ACTIVE      org.eclipse.kura.core.cloud_1.0.3
+53	ACTIVE      org.eclipse.kura.core.comm_1.0.1
+54	ACTIVE      org.eclipse.kura.core.configuration_1.0.3.201505131232
+55	ACTIVE      org.eclipse.kura.core.crypto_1.0.1
+56	ACTIVE      org.eclipse.kura.core.deployment_1.0.2
+57	ACTIVE      org.eclipse.kura.core.log_1.0.0.201505131232
+58	ACTIVE      org.eclipse.kura.core.net_1.0.4.201505131232
+59	ACTIVE      org.eclipse.kura.linux.clock_1.0.3
+60	ACTIVE      org.eclipse.kura.linux.command_1.0.3
+61	ACTIVE      org.eclipse.kura.linux.net_1.0.4.201505131232
+62	ACTIVE      org.eclipse.kura.linux.position_1.0.3
+63	ACTIVE      org.eclipse.kura.linux.usb_1.0.4.201505131232
+64	ACTIVE      org.eclipse.kura.linux.watchdog_1.0.2
+65	ACTIVE      org.eclipse.kura.net.admin_1.0.4.201505131232
+66	ACTIVE      org.eclipse.kura.web_1.0.4.qualifier
+osgi> 
+ypi 3.18.7-v7+ #755 SMP PREEMPT Thu Feb 12 17:20:48 GMT 2015 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed May 13 12:45:55 2015 from 172.30.33.148
+ifconfig eth0
+pi@raspberrypi:~$ ifconfig eth0
+eth0      Link encap:Ethernet  HWaddr b8:27:eb:9e:fd:ce  
+          inet addr:172.30.33.15  Bcast:172.30.63.255  Mask:255.255.224.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:2521 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:235 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:165288 (161.4 KiB)  TX bytes:38089 (37.1 KiB)
+
+pi@raspberrypi:~$ 
+The reconnecting eth0 port IP verfification is done using ifconfig command
+Verifying the device is able to ping external address(google.com) through putty
+The device is able to communicate with external address(google.com)
+Browser in use: FIREFOX
+===========================
+Test case ID : NET-ETH0-007
+===========================
+Reconfigure eth0 to use DHCP Client
+Updating static IP to DHCP ip in application.properties
+Verifying the eth0 port is obtaining ip address from DHCP server using ifconfig command
+Trying to connect 172.30.33.9 through SSH...
+Trying to connect the console...
+Trying to connect 172.30.33.9 through SSH...
+SSH connection successful... 
+Eth0 port is reconfigured to DHCP mode
+ypi 3.18.7-v7+ #755 SMP PREEMPT Thu Feb 12 17:20:48 GMT 2015 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed May 13 12:47:09 2015 from 172.30.33.148
+ifconfig eth0
+pi@raspberrypi:~$ ifconfig eth0
+eth0      Link encap:Ethernet  HWaddr b8:27:eb:9e:fd:ce  
+          inet addr:172.30.33.9  Bcast:172.30.63.255  Mask:255.255.224.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:4548 errors:0 dropped:1 overruns:0 frame:0
+          TX packets:2167 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:331331 (323.5 KiB)  TX bytes:2620829 (2.4 MiB)
+
+pi@raspberrypi:~$ 
+The IP address obtained from DHCP server for eth0 is 172.30.33.9
+Verifying the eth0 port is obtaining subnet mask using ifconfig command
+fconfig eth0
+eth0      Link encap:Ethernet  HWaddr b8:27:eb:9e:fd:ce  
+          inet addr:172.30.33.9  Bcast:172.30.63.255  Mask:255.255.224.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:4684 errors:0 dropped:1 overruns:0 frame:0
+          TX packets:2188 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:339603 (331.6 KiB)  TX bytes:2623623 (2.5 MiB)
+
+pi@raspberrypi:~$ 
+The subnet mask for eth0 is 255.255.224.0
+Verifying the route command should show a both an appropriate network entry and the gateway entry after configuring eth0 to DHCP mode
+oute
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         172.30.32.1     0.0.0.0         UG    0      0        0 eth0
+172.30.32.0     *               255.255.224.0   U     0      0        0 eth0
+pi@raspberrypi:~$ 
+
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         172.30.32.1     0.0.0.0         UG    0      0        0 eth0
+172.30.32.0     *               255.255.224.0   U     0      0        0 eth0
+pi@raspberrypi:~$ 
+The Gateway entry and Network entry verification is done using route command for eth0 port in DHCP mode
+Verifying /etc/resolv.conf command should show DNS servers for eth0 port in DHCP mode
+
+domain msystechnologies.com
+search msystechnologies.com
+nameserver 113.193.1.14
+nameserver 8.8.8.8
+pi@raspberrypi:~$ 
+The DNS server is obtained for eth0 port in DHCP mode
+Verifying the device is able to ping external address(google.com) through putty
+
+PING google.com (173.194.36.0) 56(84) bytes of data.
+64 bytes from bom04s01-in-f0.1e100.net (173.194.36.0): icmp_req=1 ttl=58 time=28.9 ms
+64 bytes from bom04s01-in-f0.1e100.net (173.194.36.0): icmp_req=2 ttl=58 time=21.1 ms
+64 bytes from bom04s01-in-f0.1e100.net (173.194.36.0): icmp_req=3 ttl=58 time=20.5 ms
+
+--- google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 20.578/23.549/28.916/3.804 ms
+pi@raspberrypi:~$ 
+The device is able to communicate with external address(google.com)
+Browser in use: FIREFOX
+==========================================
+Test case ID : NET-ETH0-008 - NET-ETH0-009
+==========================================
+Remove eth0 cable and reboot, verify the device is able to communicate in DHCP mode
+Trying to connect 172.30.33.9 through SSH...
+SSH connection successful... 
+IfConfig command result after disconnecting eth0:  3.18.7-v7+ #755 SMP PREEMPT Thu Feb 12 17:20:48 GMT 2015 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed May 13 12:47:47 2015 from 172.30.33.148
+cat ifconfig.txt
+pi@raspberrypi:~$ cat ifconfig.txt
+cat: ifconfig.txt: No such file or directory
+pi@raspberrypi:~$ 
+Route command result after disconnecting eth0: at route.txt
+cat: route.txt: No such file or directory
+pi@raspberrypi:~$ 
+Eth0 port is disconnected and verified
+fconfig eth0
+eth0      Link encap:Ethernet  HWaddr b8:27:eb:9e:fd:ce  
+          inet addr:172.30.33.9  Bcast:172.30.63.255  Mask:255.255.224.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:6773 errors:0 dropped:1 overruns:0 frame:0
+          TX packets:3346 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:487260 (475.8 KiB)  TX bytes:3922467 (3.7 MiB)
+
+pi@raspberrypi:~$ 
+The IP address obtained from DHCP server for eth0 after reboot is 172.30.33.9
+Verifying the eth0 port is obtaining subnet mask after rebooting the device
+fconfig eth0
+eth0      Link encap:Ethernet  HWaddr b8:27:eb:9e:fd:ce  
+          inet addr:172.30.33.9  Bcast:172.30.63.255  Mask:255.255.224.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:6906 errors:0 dropped:1 overruns:0 frame:0
+          TX packets:3366 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:496479 (484.8 KiB)  TX bytes:3925179 (3.7 MiB)
+
+pi@raspberrypi:~$ 
+The subnet mask for eth0 is 255.255.224.0
+Verifying the route command should show a both an appropriate network entry and the gateway entry after rebooting the device
+oute
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         172.30.32.1     0.0.0.0         UG    0      0        0 eth0
+172.30.32.0     *               255.255.224.0   U     0      0        0 eth0
+pi@raspberrypi:~$ 
+oute
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         172.30.32.1     0.0.0.0         UG    0      0        0 eth0
+172.30.32.0     *               255.255.224.0   U     0      0        0 eth0
+pi@raspberrypi:~$ 
+The Gateway entry and Network entry verification is done after rebooting the device in DHCP mode
+Verifying /etc/resolv.conf command should show DNS servers for eth0 port in DHCP mode
+
+domain msystechnologies.com
+search msystechnologies.com
+nameserver 113.193.1.14
+nameserver 8.8.8.8
+pi@raspberrypi:~$ 
+The DNS server is obtained for eth0 port in DHCP mode
+Verifying the device is able to ping external address(google.com) through putty
+
+PING google.com (173.194.36.7) 56(84) bytes of data.
+64 bytes from bom04s01-in-f7.1e100.net (173.194.36.7): icmp_req=1 ttl=58 time=20.6 ms
+64 bytes from bom04s01-in-f7.1e100.net (173.194.36.7): icmp_req=2 ttl=58 time=19.3 ms
+64 bytes from bom04s01-in-f7.1e100.net (173.194.36.7): icmp_req=3 ttl=58 time=19.6 ms
+
+--- google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2002ms
+rtt min/avg/max/mdev = 19.386/19.889/20.660/0.576 ms
+pi@raspberrypi:~$ 
+The device is able to communicate with external address(google.com)
+Trying to connect 172.30.33.9 through SSH...
+SSH connection successful... 
+
+"Framework is launched."
+
+
+id	State       Bundle
+0	ACTIVE      org.eclipse.osgi_3.8.1.v20120830-144521
+1	ACTIVE      org.eclipse.equinox.cm_1.0.400.v20120522-1841
+2	ACTIVE      org.eclipse.equinox.common_3.6.100.v20120522-1841
+3	ACTIVE      org.eclipse.equinox.registry_3.5.200.v20120522-1841
+4	ACTIVE      org.eclipse.equinox.http.registry_1.1.200.v20120522-2049
+5	ACTIVE      org.eclipse.equinox.console_1.0.0.v20120522-1841
+6	ACTIVE      org.eclipse.equinox.ds_1.4.0.v20120522-1841
+7	ACTIVE      org.eclipse.equinox.event_1.2.200.v20120522-2049
+8	ACTIVE      org.eclipse.equinox.io_1.0.400.v20120522-2049
+9	ACTIVE      org.eclipse.equinox.metatype_1.2.0.v20120522-1841
+10	ACTIVE      org.eclipse.equinox.util_1.0.400.v20120522-2049
+11	ACTIVE      org.eclipse.osgi.services_3.3.100.v20120522-1822
+12	ACTIVE      org.eclipse.osgi.util_3.2.300.v20120522-1822
+13	ACTIVE      org.apache.felix.gogo.command_0.8.0.v201108120515
+14	ACTIVE      org.apache.felix.gogo.runtime_0.8.0.v201108120515
+15	ACTIVE      org.apache.felix.gogo.shell_0.8.0.v201110170705
+16	ACTIVE      org.knowhowlab.osgi.monitoradmin_1.0.2
+17	ACTIVE      org.apache.felix.dependencymanager_3.0.0
+18	ACTIVE      org.apache.felix.deploymentadmin_0.9.5
+19	ACTIVE      osgi.cmpn_4.3.0.201111022214
+20	ACTIVE      org.eclipse.equinox.http.jetty_3.0.0.v20120522-1841
+21	ACTIVE      org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841
+22	ACTIVE      org.eclipse.jetty.continuation_8.1.3.v20120522
+23	ACTIVE      org.eclipse.jetty.http_8.1.3.v20120522
+24	ACTIVE      org.eclipse.jetty.io_8.1.3.v20120522
+25	ACTIVE      org.eclipse.jetty.security_8.1.3.v20120522
+26	ACTIVE      org.eclipse.jetty.server_8.1.3.v20120522
+27	ACTIVE      org.eclipse.jetty.servlet_8.1.3.v20120522
+28	ACTIVE      org.eclipse.jetty.util_8.1.3.v20120522
+29	ACTIVE      javax.servlet_3.0.0.v201112011016
+30	ACTIVE      org.apache.commons.fileupload_1.2.2.v20111214-1400
+31	ACTIVE      org.apache.commons.io_2.4.0
+32	ACTIVE      slf4j.api_1.6.4
+	            Fragments=33
+33	RESOLVED    slf4j.log4j12_1.6.0
+	            Master=32
+34	RESOLVED    log4j_1.2.17
+	            Fragments=35
+35	RESOLVED    log4j.apache-log4j-extras_1.1.0
+	            Master=34
+36	ACTIVE      org.json_1.0.0.v201011060100
+37	ACTIVE      org.eclipse.paho.client.mqttv3_1.0.1
+38	ACTIVE      org.hsqldb.hsqldb_2.3.0
+39	ACTIVE      com.google.protobuf_2.6.0
+40	ACTIVE      com.codeminders.hidapi_1.1.1
+41	ACTIVE      org.eclipse.soda.dk.comm_1.2.1
+42	ACTIVE      javax.usb.api_1.0.2
+43	ACTIVE      javax.usb.common_1.0.2
+44	ACTIVE      javax.usb.linux_1.0.3
+45	ACTIVE      jdk.dio_1.0.1
+46	ACTIVE      org.apache.commons.net_3.1.0.v201205071737
+47	ACTIVE      org.tigris.mtoolkit.iagent.rpc_3.0.0.20110411-0918
+48	ACTIVE      com.gwt.user_0.2.0
+49	ACTIVE      org.eclipse.kura.deployment.agent_1.0.2
+50	ACTIVE      org.eclipse.kura.api_1.0.3
+51	ACTIVE      org.eclipse.kura.core_1.0.4.201505131232
+52	ACTIVE      org.eclipse.kura.core.cloud_1.0.3
+53	ACTIVE      org.eclipse.kura.core.comm_1.0.1
+54	ACTIVE      org.eclipse.kura.core.configuration_1.0.3.201505131232
+55	ACTIVE      org.eclipse.kura.core.crypto_1.0.1
+56	ACTIVE      org.eclipse.kura.core.deployment_1.0.2
+57	ACTIVE      org.eclipse.kura.core.log_1.0.0.201505131232
+58	ACTIVE      org.eclipse.kura.core.net_1.0.4.201505131232
+59	ACTIVE      org.eclipse.kura.linux.clock_1.0.3
+60	ACTIVE      org.eclipse.kura.linux.command_1.0.3
+61	ACTIVE      org.eclipse.kura.linux.net_1.0.4.201505131232
+62	ACTIVE      org.eclipse.kura.linux.position_1.0.3
+63	ACTIVE      org.eclipse.kura.linux.usb_1.0.4.201505131232
+64	ACTIVE      org.eclipse.kura.linux.watchdog_1.0.2
+65	ACTIVE      org.eclipse.kura.net.admin_1.0.4.201505131232
+66	ACTIVE      org.eclipse.kura.web_1.0.4.qualifier
+osgi> 
+Browser in use: FIREFOX
+==========================================
+Test case ID : NET-ETH0-0010
+==========================================
+Test DHCP server function
+New update ip 172.30.33.15
+Trying to connect 172.30.33.15 through SSH...
+SSH connection successful... 
+s
+"Framework is launched."
+
+
+id	State       Bundle
+0	ACTIVE      org.eclipse.osgi_3.8.1.v20120830-144521
+1	ACTIVE      org.eclipse.equinox.cm_1.0.400.v20120522-1841
+2	ACTIVE      org.eclipse.equinox.common_3.6.100.v20120522-1841
+3	ACTIVE      org.eclipse.equinox.registry_3.5.200.v20120522-1841
+4	ACTIVE      org.eclipse.equinox.http.registry_1.1.200.v20120522-2049
+5	ACTIVE      org.eclipse.equinox.console_1.0.0.v20120522-1841
+6	ACTIVE      org.eclipse.equinox.ds_1.4.0.v20120522-1841
+7	ACTIVE      org.eclipse.equinox.event_1.2.200.v20120522-2049
+8	ACTIVE      org.eclipse.equinox.io_1.0.400.v20120522-2049
+9	ACTIVE      org.eclipse.equinox.metatype_1.2.0.v20120522-1841
+10	ACTIVE      org.eclipse.equinox.util_1.0.400.v20120522-2049
+11	ACTIVE      org.eclipse.osgi.services_3.3.100.v20120522-1822
+12	ACTIVE      org.eclipse.osgi.util_3.2.300.v20120522-1822
+13	ACTIVE      org.apache.felix.gogo.command_0.8.0.v201108120515
+14	ACTIVE      org.apache.felix.gogo.runtime_0.8.0.v201108120515
+15	ACTIVE      org.apache.felix.gogo.shell_0.8.0.v201110170705
+16	ACTIVE      org.knowhowlab.osgi.monitoradmin_1.0.2
+17	ACTIVE      org.apache.felix.dependencymanager_3.0.0
+18	ACTIVE      org.apache.felix.deploymentadmin_0.9.5
+19	ACTIVE      osgi.cmpn_4.3.0.201111022214
+20	ACTIVE      org.eclipse.equinox.http.jetty_3.0.0.v20120522-1841
+21	ACTIVE      org.eclipse.equinox.http.servlet_1.1.300.v20120522-1841
+22	ACTIVE      org.eclipse.jetty.continuation_8.1.3.v20120522
+23	ACTIVE      org.eclipse.jetty.http_8.1.3.v20120522
+24	ACTIVE      org.eclipse.jetty.io_8.1.3.v20120522
+25	ACTIVE      org.eclipse.jetty.security_8.1.3.v20120522
+26	ACTIVE      org.eclipse.jetty.server_8.1.3.v20120522
+27	ACTIVE      org.eclipse.jetty.servlet_8.1.3.v20120522
+28	ACTIVE      org.eclipse.jetty.util_8.1.3.v20120522
+29	ACTIVE      javax.servlet_3.0.0.v201112011016
+30	ACTIVE      org.apache.commons.fileupload_1.2.2.v20111214-1400
+31	ACTIVE      org.apache.commons.io_2.4.0
+32	ACTIVE      slf4j.api_1.6.4
+	            Fragments=33
+33	RESOLVED    slf4j.log4j12_1.6.0
+	            Master=32
+34	RESOLVED    log4j_1.2.17
+	            Fragments=35
+35	RESOLVED    log4j.apache-log4j-extras_1.1.0
+	            Master=34
+36	ACTIVE      org.json_1.0.0.v201011060100
+37	ACTIVE      org.eclipse.paho.client.mqttv3_1.0.1
+38	ACTIVE      org.hsqldb.hsqldb_2.3.0
+39	ACTIVE      com.google.protobuf_2.6.0
+40	ACTIVE      com.codeminders.hidapi_1.1.1
+41	ACTIVE      org.eclipse.soda.dk.comm_1.2.1
+42	ACTIVE      javax.usb.api_1.0.2
+43	ACTIVE      javax.usb.common_1.0.2
+44	ACTIVE      javax.usb.linux_1.0.3
+45	ACTIVE      jdk.dio_1.0.1
+46	ACTIVE      org.apache.commons.net_3.1.0.v201205071737
+47	ACTIVE      org.tigris.mtoolkit.iagent.rpc_3.0.0.20110411-0918
+48	ACTIVE      com.gwt.user_0.2.0
+49	ACTIVE      org.eclipse.kura.deployment.agent_1.0.2
+50	ACTIVE      org.eclipse.kura.api_1.0.3
+51	ACTIVE      org.eclipse.kura.core_1.0.4.201505131232
+52	ACTIVE      org.eclipse.kura.core.cloud_1.0.3
+53	ACTIVE      org.eclipse.kura.core.comm_1.0.1
+54	ACTIVE      org.eclipse.kura.core.configuration_1.0.3.201505131232
+55	ACTIVE      org.eclipse.kura.core.crypto_1.0.1
+56	ACTIVE      org.eclipse.kura.core.deployment_1.0.2
+57	ACTIVE      org.eclipse.kura.core.log_1.0.0.201505131232
+58	ACTIVE      org.eclipse.kura.core.net_1.0.4.201505131232
+59	ACTIVE      org.eclipse.kura.linux.clock_1.0.3
+60	ACTIVE      org.eclipse.kura.linux.command_1.0.3
+61	ACTIVE      org.eclipse.kura.linux.net_1.0.4.201505131232
+62	ACTIVE      org.eclipse.kura.linux.position_1.0.3
+63	ACTIVE      org.eclipse.kura.linux.usb_1.0.4.201505131232
+64	ACTIVE      org.eclipse.kura.linux.watchdog_1.0.2
+65	ACTIVE      org.eclipse.kura.net.admin_1.0.4.201505131232
+66	ACTIVE      org.eclipse.kura.web_1.0.4.qualifier
+osgi> 
+Updating DHCP IP to manually configured IP in application.properties
+Configuring IP address to manually for Eth0 done successfully
+aspberrypi 3.18.7-v7+ #755 SMP PREEMPT Thu Feb 12 17:20:48 GMT 2015 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed May 13 12:49:34 2015 from 172.30.33.148
+ps -ef
+pi@raspberrypi:~$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 12:44 ?        00:00:01 init [2]  
+root         2     0  0 12:44 ?        00:00:00 [kthreadd]
+root         3     2  0 12:44 ?        00:00:00 [ksoftirqd/0]
+root         4     2  0 12:44 ?        00:00:00 [kworker/0:0]
+root         5     2  0 12:44 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 12:44 ?        00:00:00 [kworker/u8:0]
+root         7     2  0 12:44 ?        00:00:00 [rcu_preempt]
+root         8     2  0 12:44 ?        00:00:00 [rcu_sched]
+root         9     2  0 12:44 ?        00:00:00 [rcu_bh]
+root        10     2  0 12:44 ?        00:00:00 [migration/0]
+root        11     2  0 12:44 ?        00:00:00 [migration/1]
+root        12     2  0 12:44 ?        00:00:00 [ksoftirqd/1]
+root        13     2  0 12:44 ?        00:00:00 [kworker/1:0]
+root        14     2  0 12:44 ?        00:00:00 [kworker/1:0H]
+root        15     2  0 12:44 ?        00:00:00 [migration/2]
+root        16     2  0 12:44 ?        00:00:00 [ksoftirqd/2]
+root        17     2  0 12:44 ?        00:00:00 [kworker/2:0]
+root        18     2  0 12:44 ?        00:00:00 [kworker/2:0H]
+root        19     2  0 12:44 ?        00:00:00 [migration/3]
+root        20     2  0 12:44 ?        00:00:00 [ksoftirqd/3]
+root        21     2  0 12:44 ?        00:00:00 [kworker/3:0]
+root        22     2  0 12:44 ?        00:00:00 [kworker/3:0H]
+root        23     2  0 12:44 ?        00:00:00 [khelper]
+root        24     2  0 12:44 ?        00:00:00 [kdevtmpfs]
+root        25     2  0 12:44 ?        00:00:00 [netns]
+root        26     2  0 12:44 ?        00:00:00 [perf]
+root        27     2  0 12:44 ?        00:00:00 [khungtaskd]
+root        28     2  0 12:44 ?        00:00:00 [writeback]
+root        29     2  0 12:44 ?        00:00:00 [crypto]
+root        30     2  0 12:44 ?        00:00:00 [bioset]
+root        31     2  0 12:44 ?        00:00:00 [kblockd]
+root        32     2  0 12:44 ?        00:00:00 [kworker/1:1]
+root        33     2  0 12:44 ?        00:00:00 [rpciod]
+root        34     2  0 12:44 ?        00:00:00 [kswapd0]
+root        35     2  0 12:44 ?        00:00:00 [fsnotify_mark]
+root        36     2  0 12:44 ?        00:00:00 [nfsiod]
+root        42     2  0 12:44 ?        00:00:00 [kthrotld]
+root        43     2  0 12:44 ?        00:00:00 [kworker/0:1]
+root        44     2  0 12:44 ?        00:00:00 [VCHIQ-0]
+root        45     2  0 12:44 ?        00:00:00 [VCHIQr-0]
+root        46     2  0 12:44 ?        00:00:00 [VCHIQs-0]
+root        47     2  0 12:44 ?        00:00:00 [iscsi_eh]
+root        48     2  0 12:44 ?        00:00:00 [dwc_otg]
+root        49     2  0 12:44 ?        00:00:00 [DWC Notificatio]
+root        50     2  0 12:44 ?        00:00:00 [kworker/u8:1]
+root        51     2  0 12:44 ?        00:00:00 [mmcqd/0]
+root        52     2  0 12:44 ?        00:00:00 [VCHIQka-0]
+root        53     2  0 12:44 ?        00:00:00 [SMIO]
+root        54     2  0 12:44 ?        00:00:00 [deferwq]
+root        55     2  0 12:44 ?        00:00:00 [jbd2/mmcblk0p6-]
+root        56     2  0 12:44 ?        00:00:00 [ext4-rsv-conver]
+root        71     2  0 12:44 ?        00:00:00 [kworker/2:1]
+root        72     2  0 12:44 ?        00:00:00 [kworker/1:2]
+root        73     2  0 12:44 ?        00:00:00 [kworker/3:1]
+root       174     1  0 12:44 ?        00:00:00 udevd --daemon
+root       287   174  0 12:44 ?        00:00:00 udevd --daemon
+root       295   174  0 12:44 ?        00:00:00 udevd --daemon
+root      1493     1  0 12:45 ?        00:00:00 /usr/sbin/ifplugd -i lo -q -f -u
+root      1494     1  0 12:45 ?        00:00:00 /usr/sbin/ifplugd -i eth0 -q -f 
+nobody    1977     1  0 12:45 ?        00:00:00 /usr/sbin/thd --daemon --trigger
+root      1999     1  0 12:45 ?        00:00:00 /usr/sbin/rsyslogd -c5
+ntp       2141     1  0 12:45 ?        00:00:00 /usr/sbin/ntpd -p /var/run/ntpd.
+104       2163     1  0 12:45 ?        00:00:00 /usr/bin/dbus-daemon --system
+root      2260     1  0 12:45 ?        00:00:00 /usr/sbin/cron
+root      2270     2  0 12:45 ?        00:00:00 [kworker/3:2]
+root      2272     2  0 12:45 ?        00:00:00 [kworker/2:2]
+root      2326     2  0 12:45 ?        00:00:00 [kworker/0:2]
+root      2359     1 10 12:45 ?        00:00:30 java -Xms512m -Xmx512m -XX:MaxPe
+root      2362     1  0 12:45 ?        00:00:01 /usr/bin/monit -c /etc/monit/mon
+root      2403     1  0 12:45 tty1     00:00:00 /sbin/getty --noclear 38400 tty1
+root      2404     1  0 12:45 tty2     00:00:00 /sbin/getty 38400 tty2
+root      2405     1  0 12:45 tty3     00:00:00 /sbin/getty 38400 tty3
+root      2406     1  0 12:45 tty4     00:00:00 /sbin/getty 38400 tty4
+root      2407     1  0 12:45 tty5     00:00:00 /sbin/getty 38400 tty5
+root      2408     1  0 12:45 tty6     00:00:00 /sbin/getty 38400 tty6
+root      2409     1  0 12:45 ?        00:00:00 /sbin/getty -L ttyAMA0 115200 vt
+root      2417     1  0 12:45 ?        00:00:00 sshd: pi [priv]  
+pi        2421  2417  0 12:45 ?        00:00:00 sshd: pi@pts/0   
+pi        2422  2421  0 12:45 pts/0    00:00:00 -bash
+root      2629     1  0 12:46 ?        00:00:00 sshd: pi [priv]  
+pi        2633  2629  0 12:46 ?        00:00:00 sshd: pi@pts/1   
+pi        2634  2633  0 12:46 pts/1    00:00:00 -bash
+root      2829     1  0 12:47 ?        00:00:00 sshd: pi [priv]  
+pi        2833  2829  0 12:47 ?        00:00:00 sshd: pi@pts/2   
+pi        2834  2833  0 12:47 pts/2    00:00:00 -bash
+root      2882     1  0 12:47 ?        00:00:00 sshd: pi [priv]  
+pi        2886  2882  0 12:47 ?        00:00:00 sshd: pi@pts/3   
+pi        2887  2886  0 12:47 pts/3    00:00:00 -bash
+root      2946     1  0 12:47 ?        00:00:00 sshd: pi [priv]  
+pi        2950  2946  0 12:47 ?        00:00:00 sshd: pi@notty   
+root      2979     2  0 12:47 ?        00:00:00 [kworker/u8:2]
+root      3036     1  0 12:48 ?        00:00:00 sshd: pi [priv]  
+pi        3040  3036  0 12:48 ?        00:00:00 sshd: pi@pts/4   
+pi        3041  3040  0 12:48 pts/4    00:00:00 -bash
+root      3343     1  0 12:49 ?        00:00:00 /usr/sbin/sshd
+bind      3403     1  0 12:49 ?        00:00:00 /usr/sbin/named -u bind
+root      3412  3343 31 12:49 ?        00:00:00 sshd: pi [priv]  
+pi        3416  3412  0 12:49 ?        00:00:00 sshd: pi@pts/5   
+pi        3417  3416  0 12:49 pts/5    00:00:00 -bash
+pi        3431  3417  0 12:49 pts/5    00:00:00 ps -ef
+pi@raspberrypi:~$ 
+Verifying the Ethernet eth1 functionalities in FIREFOX browser
+Browser in use: FIREFOX
+Verifying the Wifi functionalities in FIREFOX browser
+Browser in use: FIREFOX
+Tests run: 42, Failures: 1, Errors: 0, Skipped: 21, Time elapsed: 1,085.103 sec <<< FAILURE!
+verifyDHCPServerFunction(com.eurotech.denali.test.EthernetTest)  Time elapsed: 49.726 sec  <<< FAILURE!
+java.lang.AssertionError: DHCPD service is not running expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.eurotech.denali.test.EthernetTest.verifyDHCPServerFunction(EthernetTest.java:669)
+
+
+Results :
+
+Failed tests: 
+  EthernetTest.verifyDHCPServerFunction:669 DHCPD service is not running expected [true] but found [false]
+
+Tests run: 42, Failures: 1, Errors: 0, Skipped: 21
+
+[ERROR] There are test failures.
+
+Please refer to E:\DenaliWebAutomation\target\surefire-reports for the individual test results.
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:site (default-site) @ denali-web ---
+[INFO] configuring report plugin org.reportyng:reporty-ng:1.2
+[INFO] configuring report plugin org.apache.maven.plugins:maven-project-info-reports-plugin:2.7
+[INFO] Relativizing decoration links with respect to project URL: http://maven.apache.org
+[INFO] Rendering site with org.apache.maven.skins:maven-default-skin:jar:1.0 skin.
+[INFO] Generating "TestNG XSLT Results" report    --- reporty-ng:1.2
+[INFO] Reporty-ng is processing file 'E:\DenaliWebAutomation/test-output/\testng-results.xml'
+[WARNING] File 'testng-results.xml' could not be found. No reports will be generated by Reporty-ng
+[INFO] Generating "About" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Plugin Management" report    --- maven-project-info-reports-plugin:2.7
+Downloading: https://github.com/cosminaru/reporty-ng/raw/master/dist/maven/org/eclipse/m2e/lifecycle-mapping/1.0.0/lifecycle-mapping-1.0.0.pom
+[INFO] Generating "Distribution Management" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Dependency Information" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Source Repository" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Mailing Lists" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Issue Tracking" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Continuous Integration" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Project Plugins" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Project License" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Project Team" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Project Summary" report    --- maven-project-info-reports-plugin:2.7
+[INFO] Generating "Dependencies" report    --- maven-project-info-reports-plugin:2.7
+[INFO] 
+[INFO] --- reporty-ng:1.2:reportyng (default-cli) @ denali-web ---
+[INFO] Reporty-ng is processing file 'E:\DenaliWebAutomation\target/surefire-reports\testng-results.xml'
+[INFO] TestNG XSLT is generating HTML in directory 'E:\DenaliWebAutomation\target\site/reportyng-xslt'
+[INFO] Transformer parameters are:
+[INFO] 		testNgXslt.outputDir:         E:\DenaliWebAutomation\target\site/reportyng-xslt
+[INFO] 		testNgXslt.cssFile:           null
+[INFO] 		testNgXslt.showRuntimeTotals: false
+[INFO] 		testNgXslt.reportTitle:       TestNG XSLT Results
+[INFO] 		testNgXslt.sortTestCaseLinks: false
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18:29.350s
+[INFO] Finished at: Wed May 13 18:20:32 IST 2015
+[INFO] Final Memory: 25M/146M
+[INFO] ------------------------------------------------------------------------
